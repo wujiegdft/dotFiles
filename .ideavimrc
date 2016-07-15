@@ -1,3 +1,4 @@
+set showmode
 set rnu
 set nu
 set so=7
@@ -19,6 +20,7 @@ inoremap <C-a> <Esc>I
 
 inoremap II <Esc>I
 inoremap AA <Esc>A
+inoremap OO <Esc>O
 
 nmap zj o<Esc>k
 nmap zk O<Esc>j
@@ -27,6 +29,8 @@ nmap <leader>h <c-w>h
 nmap <leader>l <c-w>l
 nmap <leader>k <c-w>k
 nmap <leader>j <c-w>j
+
+nnoremap s :action AceJumpAction<cr>
 
 nmap <leader>g :action GotoDeclaration<cr>
 nmap <leader>b :action Back<cr>
