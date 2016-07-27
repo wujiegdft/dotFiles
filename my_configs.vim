@@ -1,6 +1,8 @@
 set nu
 set rnu
 
+set cmdheight = 1
+
 inoremap jj <ESC>
 
 inoremap <C-e> <Esc>A
