@@ -5,6 +5,7 @@ set list
 set listchars=tab:›\ ,trail:•,extends:#,nbsp:. " Highlight problematic whitespace
 set pastetoggle=<F12>           " pastetoggle (sane indentation on pastes)
 " set mouse=a
+set cursorline
 
 nnoremap ; :
 
@@ -19,8 +20,8 @@ inoremap OO <Esc>o
 cnoremap q1 q!
 
 " Open NERDTree when Vim startsup and no files were specified
-1 autocmd StdinReadPre * let s:std_in=1
-2 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+" autocmd StdinReadPre * let s:std_in=1
+" autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 " Open NERDTree with Ctrl-n 
 let g:NERDTreeWinPos = "left"
