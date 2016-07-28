@@ -5,6 +5,8 @@ set cmdheight=1
 set list
 set listchars=tab:›\ ,trail:•,extends:#,nbsp:. " Highlight problematic whitespace
 set pastetoggle=<F12>           " pastetoggle (sane indentation on pastes)
+set mouse=a
+nnoremap ; :
 
 inoremap jj <ESC>
 
