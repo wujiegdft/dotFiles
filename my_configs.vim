@@ -14,7 +14,9 @@ inoremap <C-a> <Esc>I
 inoremap <C-e> <Esc>A
 inoremap II <Esc>I
 inoremap AA <Esc>A
+inoremap OO <Esc>o
 
+cnoremap q1 q!
 
 " Open NERDTree when Vim startsup and no files were specified
 autocmd StdinReadPre * let s:std_in=1
