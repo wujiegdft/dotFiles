@@ -6,6 +6,7 @@ set listchars=tab:›\ ,trail:•,extends:#,nbsp:. " Highlight problematic white
 set pastetoggle=<F12>           " pastetoggle (sane indentation on pastes)
 " set mouse=a
 set cursorline
+map q <Nop>
 
 unmap <space>
 unmap <c-space>
