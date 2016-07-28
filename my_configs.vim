@@ -23,6 +23,8 @@ inoremap AA <Esc>A
 inoremap OO <Esc>o
 
 cnoremap q1 q!
+vmap v <Plug>(expand_region_expand)
+vmap <C-v> <Plug>(expand_region_shrink)
 
 " Open NERDTree when Vim startsup and no files were specified
 " autocmd StdinReadPre * let s:std_in=1
