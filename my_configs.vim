@@ -7,6 +7,10 @@ set pastetoggle=<F12>           " pastetoggle (sane indentation on pastes)
 " set mouse=a
 set cursorline
 
+unmap <space>
+unmap <c-space>
+map <space> <leader>
+
 nnoremap ; :
 
 inoremap jj <ESC>
