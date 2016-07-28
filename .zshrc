@@ -49,7 +49,7 @@ ZSH_THEME="ys"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git tmux docker)
+plugins=(git tmux docker python brew)
 
 # User configuration
 
@@ -86,3 +86,15 @@ source $ZSH/oh-my-zsh.sh
 alias docker="sudo docker"
 export GOPATH=~/projects/Go
 . /etc/zsh_command_not_found
+
+fancy-ctrl-z () {
+  if [[ $#BUFFER -eq 0 ]]; then
+    BUFFER="fg"
+    zle accept-line
+  else
+    zle push-input
+    zle clear-screen
+  fi
+}
+zle -N fancy-ctrl-z
+bindkey '^Z' fancy-ctrl-z
