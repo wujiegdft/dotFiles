@@ -53,6 +53,7 @@ endfunction
 " git clone https://github.com/SirVer/ultisnips.git
 " git clone https://github.com/majutsushi/tagbar.git
 " git clone git://github.com/tpope/vim-sensible.git
+" git clone https://github.com/Yggdroot/indentLine.git
 
 " ---------------------------------- "
 " Configure Ultisnip and YouCompleteMe
@@ -89,3 +90,22 @@ let g:UltiSnipsJumpBackwardTrigger = '<C-k>'
 " Configure Tagbar
 " ---------------------------------- "
 nmap <F8> :TagbarToggle<CR>
+
+" ---------------------------------- "
+" Configure indent line
+" ---------------------------------- "
+set list lcs=tab:\¦\
+let g:indentLine_conceallevel = 1
+
+" Vim
+let g:indentLine_color_term = 239
+
+"GVim
+let g:indentLine_color_gui = '#A4E57E'
+
+" none X terminal
+let g:indentLine_color_tty_light = 4 " (default: 4)
+let g:indentLine_color_dark = 2 " (default: 2)
+
+let g:indentLine_char = '¦'
+
