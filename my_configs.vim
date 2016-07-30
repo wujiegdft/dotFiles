@@ -94,7 +94,7 @@ nmap <F8> :TagbarToggle<CR>
 " ---------------------------------- "
 " Configure indent line
 " ---------------------------------- "
-set list lcs=tab:\¦\
+set list lcs=tab:\¦\ 
 let g:indentLine_conceallevel = 1
 
 " Vim
