@@ -109,3 +109,5 @@ let g:indentLine_color_dark = 2 " (default: 2)
 
 let g:indentLine_char = '¦'
 
+" ln -s ~/.vimrc ~/.config/nvim/init.vim
+
