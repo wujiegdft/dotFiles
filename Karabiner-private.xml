@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<root>
+
+    <devicevendordef>
+        <vendorname>FILCO Bluetooth Keyboard</vendorname>
+        <vendorid>0x0a5c</vendorid>
+    </devicevendordef>
+
+    <deviceproductdef>
+        <productname>PC_KEYBOARD</productname>
+        <productid>0x8502</productid>
+    </deviceproductdef>
+
+    <item>
+        <name>FILCO Bluetooth Keyboard</name>
+        <identifier>private.deviceproductdef</identifier>
+        <device_only>DeviceVendor::FILCO Bluetooth Keyboard, DeviceProduct::PC_KEYBOARD</device_only>
+        <identifier>private.remap.pc_to_mac</identifier>
+	
+        <autogen>__KeyOverlaidModifier__ KeyCode::PC_APPLICATION, KeyCode::VK_MODIFIER_EXTRA1, KeyCode:: LAUNCHPAD</autogen>
+	
+	
+	<autogen>__KeyToKey__ KeyCode::KEY_1, ModifierFlag::EXTRA1, KeyCode::VK_CONSUMERKEY_BRIGHTNESS_DOWN</autogen>
+    	<autogen>__KeyToKey__ KeyCode::KEY_2, ModifierFlag::EXTRA1, KeyCode::VK_CONSUMERKEY_BRIGHTNESS_UP</autogen>
+
+	<autogen>__KeyToKey__ KeyCode::KEY_3, ModifierFlag::EXTRA1, KeyCode:: EXPOSE_ALL</autogen>
+	<autogen>__KeyToKey__ KeyCode::KEY_4, ModifierFlag::EXTRA1, KeyCode:: LAUNCHPAD</autogen>
+
+	<autogen>__KeyToKey__ KeyCode::KEY_5, ModifierFlag::EXTRA1, KeyCode::VK_CONSUMERKEY_BRIGHTNESS_UP</autogen>
+
+    	<autogen>__KeyToKey__ KeyCode::KEY_6, ModifierFlag::EXTRA1, KeyCode::VK_CONSUMERKEY_MUSIC_PREV</autogen>
+    	<autogen>__KeyToKey__ KeyCode::KEY_7, ModifierFlag::EXTRA1, KeyCode::VK_CONSUMERKEY_MUSIC_PLAY</autogen>
+    	<autogen>__KeyToKey__ KeyCode::KEY_8, ModifierFlag::EXTRA1, KeyCode::VK_CONSUMERKEY_MUSIC_NEXT</autogen>
+
+    	<autogen>__KeyToKey__ KeyCode::KEY_9, ModifierFlag::EXTRA1, KeyCode::VK_CONSUMERKEY_VOLUME_DOWN, ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
+    	<autogen>__KeyToKey__ KeyCode::KEY_0, ModifierFlag::EXTRA1, KeyCode::VK_CONSUMERKEY_VOLUME_UP, ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
+	
+	<autogen>__KeyToKey__ PointingButton::BUTTON4, KeyCode::PAGEDOWN</autogen>
+	
+    </item>
+</root>
+
+<!—-  http://osxnotes.net/keyremap4macbook.html -—>
+
