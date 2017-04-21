@@ -8,9 +8,10 @@ set pastetoggle=<F12>           " pastetoggle (sane indentation on pastes)
 set cursorline
 map q <Nop>
 
-unmap <space>
-unmap <c-space>
 map <space> <leader>
+" unmap <space>
+" unmap <c-space>
+" map <space> <leader>
 
 nnoremap ; :
 
