@@ -1,5 +1,6 @@
 SetTitleMatchMode, 2
 
++Capslock::Capslock
 Capslock::Ctrl
 
 #1:: run D:\Program Files\Everything\Everything.exe
