@@ -1,0 +1,78 @@
+{
+    "vim.leader": " ",
+    "vim.sneak": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "b"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.navigateBack"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.navigateForward"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "g"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "editor.action.goToDeclaration"
+                }
+            ]
+        },
+    ],
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-c>": false,
+        "<C-e>": false,
+        "<C-f>": false
+    },
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "Source Code Pro SemiBold",
+    "terminal.integrated.fontFamily": "Consolas",
+    "editor.fontSize": 18,
+    "terminal.integrated.fontSize": 18,
+    "editor.renderWhitespace": "none",
+    "editor.mouseWheelScrollSensitivity": 3,
+    "editor.glyphMargin": true,
+    "editor.formatOnType": true,
+    "editor.fontLigatures": true,
+    "editor.renderIndentGuides": true,
+    "explorer.openEditors.visible": 0,
+    "update.channel": "none",
+    "window.zoomLevel": 2,
+    "editor.insertSpaces": false,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/.pyc": true
+    },
+    "workbench.colorTheme": "Visual Studio Light",
+    "extensions.autoUpdate": false,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "[groovy]": {},
+}
