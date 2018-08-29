@@ -1,0 +1,23 @@
+[
+	{
+		"key": "atl+c",
+		"command": "editor.action.triggerSuggest",
+		"when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+m",
+		"command": "workbench.action.maximizeEditor"
+	},
+	{
+		"key": "alt+f12",
+		"command": "workbench.action.togglePanel"
+	},
+	{
+		"key": "ctrl+9",
+		"command": "workbench.action.navigateBack"
+	},
+	{
+		"key": "ctrl+0",
+		"command": "workbench.action.navigateForward"
+	}
+]
